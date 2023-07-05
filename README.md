@@ -2,6 +2,6 @@
 
 a simple pokédex made by craques
 
-[https://prod.liveshare.vsengsaas.visualstudio.com/join?E86A46B8F59725253B597712680FF5B94B96](https://prod.liveshare.vsengsaas.visualstudio.com/join?E86A46B8F59725253B597712680FF5B94B96)
+[https://prod.liveshare.vsengsaas.visualstudio.com/join?794E0A812676644D45E1CB958794556E3FFB](https://prod.liveshare.vsengsaas.visualstudio.com/join?794E0A812676644D45E1CB958794556E3FFB)
 
 [https://pokemondb.net/pokedex/all](https://pokemondb.net/pokedex/all)
