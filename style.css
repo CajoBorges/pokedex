@@ -29,6 +29,8 @@
 
 .title {
     text-align: center;
+    width: 200px;
+    
     padding-block: 1rem;
 }
 
@@ -64,11 +66,11 @@
 }
 
 .searchbutton {
-    background-color: rgb(52, 139, 225);
+    background-color: rgb(234, 49, 49);
     height: 50px;
-    width: 70px;
+    width: 80px;
     cursor: pointer;
-    margin-left: 3px;
+    margin-left: 2px;
     border: 2px solid black; 
     text-align: center;
     border-radius: 5px;
