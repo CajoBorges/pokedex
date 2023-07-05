@@ -110,7 +110,6 @@ function tipoImagem(tipo){
     if (tipo == "Steel") return "./images/steel.png"
     if (tipo == "Ice") return "./images/ice.png"
     if (tipo == "Fairy") return "./images/fairy.png"
-
 }
 
 
