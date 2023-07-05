@@ -34,11 +34,13 @@ function renderTable(data) {
     img.src = tipoImagem(element.tipo1)
     td.classList.add('table-item')
     td.classList.add('type')
+    img.classList.add("tipo")
     td.appendChild(img)
     if (element.tipo2) {
       //td.textContent += ' / ' + element.tipo2
       img = document.createElement('img')
       img.src = tipoImagem(element.tipo2)
+      img.classList.add("tipo")
       td.appendChild(img)
     }
     tr.appendChild(td)
@@ -90,7 +92,7 @@ function searchFilter(pokemoneName, data) {
 }
 
 function tipoImagem(tipo){
-    if (tipo == "Rock") return "./images/rock.png"
+    if (tipo == "Rock") return "./images/rock.png"  
     if (tipo == "Poison") return "./images/poison.png"
     if (tipo == "Flying") return "./images/flying.png"
     if (tipo == "Ground") return "./images/ground.png"
@@ -98,16 +100,16 @@ function tipoImagem(tipo){
     if (tipo == "Grass") return "./images/grass.png"
     if (tipo == "Water") return "./images/water.png"
     if (tipo == "Fighting") return "./images/fighting.png"
-    if (tipo == "Bug") return 
-    if (tipo == "Dark") return
-    if (tipo == "Psychic") return
-    if (tipo == "Ghost") return
-    if (tipo == "Dragon") return
-    if (tipo == "Electric") return
-    if (tipo == "Normal") return
-    if (tipo == "Steel") return
-    if (tipo == "Ice") return
-    if (tipo == "Fairy") return
+    if (tipo == "Bug") return "./images/bug.png"
+    if (tipo == "Dark") return "./images/dark.png"
+    if (tipo == "Psychic") return "./images/psychic.png"
+    if (tipo == "Ghost") return "./images/ghost.png"
+    if (tipo == "Dragon") return "./images/dragon.png"
+    if (tipo == "Electric") return "./images/eletric.png"
+    if (tipo == "Normal") return "./images/normal.png"
+    if (tipo == "Steel") return "./images/steel.png"
+    if (tipo == "Ice") return "./images/ice.png"
+    if (tipo == "Fairy") return "./images/fairy.png"
 
 }
 

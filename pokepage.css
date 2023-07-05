@@ -1,5 +1,4 @@
 .bigtitle {
-    color: #000000;
     font-family: Google Sans, Lexend, Noto Sans, Arial, Helvetica, sans-serif;
     font-size: 33px;
 }
@@ -9,16 +8,21 @@
     height: 300px;
 }
 .name {
-    color: #000000;
     font-family: Google Sans, Lexend, Noto Sans, Arial, sans-serif;
     font-size: 22px;
 }
-.info {
+.infostyle {
+    justify-content: flex-end;
+    font-family: Google Sans, Lexend, Noto Sans, Arial, sans-serif;
+    font-size: 12px;
+}
 
+.typestyle {
+    font-family: Google Sans, Lexend, Noto Sans, Arial, sans-serif;
+    font-size: 20px;
 }
 
 .principal {
     display: flex;
     flex-direction: row;
-    f
 }
