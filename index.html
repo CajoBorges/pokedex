@@ -13,12 +13,14 @@
 </head>
 <body>
     <div class="div-title">
-        <img src="Poké_Ball_icon.svg.png" width="30px" height="30px">
+        <img src="Poké_Ball_icon.svg.png" width="30px" height="30px" alt="Pokédex">
         <h1 class="title">Pokédex</h1> 
     </div>
     <div>
-        <input type="text" id="searchbar" placeholder="Search Pokemon">
-        <button></button>
+        <form class="search-form">
+            <input type="text" class="searchbar" placeholder="Search Pokemon">
+            <button class="searchbutton" type="submit">Pesquisar</button>
+        </form>
         <table id="pokemon-table" class="pokemon-table">
             <thead class="table-header">
                 <th>Number</th>

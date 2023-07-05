@@ -91,25 +91,7 @@ function searchFilter(pokemoneName, data) {
     return Object.fromEntries(filtered)
 }
 
+
 function tipoImagem(tipo){
-    if (tipo == "Rock") return "./images/rock.png"  
-    if (tipo == "Poison") return "./images/poison.png"
-    if (tipo == "Flying") return "./images/flying.png"
-    if (tipo == "Ground") return "./images/ground.png"
-    if (tipo == "Fire") return "./images/fire.png"
-    if (tipo == "Grass") return "./images/grass.png"
-    if (tipo == "Water") return "./images/water.png"
-    if (tipo == "Fighting") return "./images/fighting.png"
-    if (tipo == "Bug") return "./images/bug.png"
-    if (tipo == "Dark") return "./images/dark.png"
-    if (tipo == "Psychic") return "./images/psychic.png"
-    if (tipo == "Ghost") return "./images/ghost.png"
-    if (tipo == "Dragon") return "./images/dragon.png"
-    if (tipo == "Electric") return "./images/eletric.png"
-    if (tipo == "Normal") return "./images/normal.png"
-    if (tipo == "Steel") return "./images/steel.png"
-    if (tipo == "Ice") return "./images/ice.png"
-    if (tipo == "Fairy") return "./images/fairy.png"
+    return "./images/" + tipo + ".png"
 }
-
-
