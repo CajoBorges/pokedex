@@ -1,14 +1,24 @@
 * {
     box-sizing: border-box;
     margin: 0;
-    padding: 0;
-    border: 1px solid red;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 0;    
 }
 
-.pokemon-table{
+.div-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.pokemon-table {
     width: 100%; 
-    border-spacing: 1.5rem 1rem;
+    border-spacing: 0
+}
+
+.number {
+    display: flex;
+    align-items: center;
 }
 
 .number, .hp, .attack, .defense, .sp-attack, .sp-defense, .speed {
@@ -18,4 +28,16 @@
 .title {
     text-align: center;
     padding-block: 1rem;
+}
+
+.table-item {
+    padding: 0.25rem 1.5rem;
+}
+
+.row:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+.table-header {
+    background-color: #cacaca;
 }
