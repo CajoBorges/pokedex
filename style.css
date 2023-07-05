@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 1px solid red;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.pokemon-table{
+    width: 100%; 
+    border-spacing: 1.5rem 1rem;
+}
+
+.number, .hp, .attack, .defense, .sp-attack, .sp-defense, .speed {
+    text-align: right;
+}
+
+.title {
+    text-align: center;
+    padding-block: 1rem;
+}

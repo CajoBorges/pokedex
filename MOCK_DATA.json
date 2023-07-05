@@ -1,0 +1,282 @@
+[
+  {
+    "number": 1,
+    "name": "Wainwright McPartling",
+    "type": "Y-find",
+    "image": "9d448c31-49b5-49f5-90e1-33484799e89f",
+    "stats": {
+      "hp": 9,
+      "attack": 53,
+      "defense": 35,
+      "spAttack": 2,
+      "spDefense": 27,
+      "speed": 68
+    }
+  },
+  {
+    "number": 2,
+    "name": "Cornie Kubal",
+    "type": "Alphazap",
+    "image": "79b6a3d6-7940-4c77-899a-a3d6f6226d2f",
+    "stats": {
+      "hp": 63,
+      "attack": 68,
+      "defense": 72,
+      "spAttack": 60,
+      "spDefense": 27,
+      "speed": 85
+    }
+  },
+  {
+    "number": 3,
+    "name": "Lisette Boscott",
+    "type": "Flowdesk",
+    "image": "d80ff7b8-8548-498c-bff9-ff52f9f183e4",
+    "stats": {
+      "hp": 46,
+      "attack": 41,
+      "defense": 14,
+      "spAttack": 47,
+      "spDefense": 34,
+      "speed": 30
+    }
+  },
+  {
+    "number": 4,
+    "name": "Sissie Kinzel",
+    "type": "Tres-Zap",
+    "image": "d70b3ae7-2d4f-406f-bc69-3f12178b918a",
+    "stats": {
+      "hp": 96,
+      "attack": 16,
+      "defense": 26,
+      "spAttack": 11,
+      "spDefense": 6,
+      "speed": 17
+    }
+  },
+  {
+    "number": 5,
+    "name": "Aurel Louedey",
+    "type": "Zoolab",
+    "image": "263db6a6-cf07-4d8e-ad17-ffdc08683d87",
+    "stats": {
+      "hp": 100,
+      "attack": 88,
+      "defense": 39,
+      "spAttack": 57,
+      "spDefense": 78,
+      "speed": 5
+    }
+  },
+  {
+    "number": 6,
+    "name": "Maurits Vokes",
+    "type": "Biodex",
+    "image": "c1a1e183-50bd-4165-b095-385d08e81ba5",
+    "stats": {
+      "hp": 74,
+      "attack": 37,
+      "defense": 52,
+      "spAttack": 11,
+      "spDefense": 55,
+      "speed": 32
+    }
+  },
+  {
+    "number": 7,
+    "name": "Livy Raddenbury",
+    "type": "Treeflex",
+    "image": "c066d3ef-8901-4545-9f7b-a9cdf103ee89",
+    "stats": {
+      "hp": 89,
+      "attack": 88,
+      "defense": 99,
+      "spAttack": 88,
+      "spDefense": 48,
+      "speed": 100
+    }
+  },
+  {
+    "number": 8,
+    "name": "Roze Mitchelmore",
+    "type": "Bigtax",
+    "image": "13cdcdac-d83e-4792-8d67-c1fe75ef8feb",
+    "stats": {
+      "hp": 62,
+      "attack": 26,
+      "defense": 99,
+      "spAttack": 81,
+      "spDefense": 53,
+      "speed": 65
+    }
+  },
+  {
+    "number": 9,
+    "name": "Gallagher Malim",
+    "type": "Tresom",
+    "image": "ef5901bc-a926-494c-92df-ac28cf9712ab",
+    "stats": {
+      "hp": 43,
+      "attack": 32,
+      "defense": 55,
+      "spAttack": 82,
+      "spDefense": 61,
+      "speed": 61
+    }
+  },
+  {
+    "number": 10,
+    "name": "Audrey Asals",
+    "type": "Tres-Zap",
+    "image": "9c66387f-7994-4a63-8f84-7ce5abdfc400",
+    "stats": {
+      "hp": 81,
+      "attack": 56,
+      "defense": 71,
+      "spAttack": 46,
+      "spDefense": 13,
+      "speed": 97
+    }
+  },
+  {
+    "number": 11,
+    "name": "Jodie Dodshun",
+    "type": "Stringtough",
+    "image": "733c581b-7f75-481c-a756-bbe17ceb760f",
+    "stats": {
+      "hp": 80,
+      "attack": 38,
+      "defense": 11,
+      "spAttack": 57,
+      "spDefense": 33,
+      "speed": 35
+    }
+  },
+  {
+    "number": 12,
+    "name": "Errol Rickword",
+    "type": "Asoka",
+    "image": "8d2e7bd6-9130-493e-ad64-4c10ea0cc478",
+    "stats": {
+      "hp": 71,
+      "attack": 37,
+      "defense": 43,
+      "spAttack": 72,
+      "spDefense": 10,
+      "speed": 30
+    }
+  },
+  {
+    "number": 13,
+    "name": "Orlando Duckfield",
+    "type": "Cookley",
+    "image": "c092899f-bccb-48c1-a3c6-02d736caf47f",
+    "stats": {
+      "hp": 33,
+      "attack": 48,
+      "defense": 36,
+      "spAttack": 74,
+      "spDefense": 76,
+      "speed": 78
+    }
+  },
+  {
+    "number": 14,
+    "name": "Austin Cuffe",
+    "type": "Toughjoyfax",
+    "image": "8894ff3d-8d59-49bc-b574-459ec229734d",
+    "stats": {
+      "hp": 13,
+      "attack": 62,
+      "defense": 40,
+      "spAttack": 96,
+      "spDefense": 72,
+      "speed": 40
+    }
+  },
+  {
+    "number": 15,
+    "name": "Hermie Steere",
+    "type": "Duobam",
+    "image": "2466ad26-ab3f-4a0a-b662-d4aad32dcc29",
+    "stats": {
+      "hp": 57,
+      "attack": 8,
+      "defense": 71,
+      "spAttack": 33,
+      "spDefense": 90,
+      "speed": 13
+    }
+  },
+  {
+    "number": 16,
+    "name": "Cymbre Dodamead",
+    "type": "Ventosanzap",
+    "image": "0dbd6ddc-5a95-433e-b6c0-62c032340813",
+    "stats": {
+      "hp": 58,
+      "attack": 63,
+      "defense": 49,
+      "spAttack": 21,
+      "spDefense": 52,
+      "speed": 53
+    }
+  },
+  {
+    "number": 17,
+    "name": "Roderic Connew",
+    "type": "It",
+    "image": "71c305ba-b935-4258-88b0-9c1c8165b8ee",
+    "stats": {
+      "hp": 16,
+      "attack": 95,
+      "defense": 19,
+      "spAttack": 33,
+      "spDefense": 31,
+      "speed": 29
+    }
+  },
+  {
+    "number": 18,
+    "name": "Ignatius Wilbraham",
+    "type": "Stim",
+    "image": "0931c348-e844-44bb-a6f3-86c9d60945ec",
+    "stats": {
+      "hp": 8,
+      "attack": 27,
+      "defense": 99,
+      "spAttack": 66,
+      "spDefense": 2,
+      "speed": 33
+    }
+  },
+  {
+    "number": 19,
+    "name": "Corbin Eland",
+    "type": "Pannier",
+    "image": "38b51081-276e-457d-ac91-006352274b84",
+    "stats": {
+      "hp": 56,
+      "attack": 84,
+      "defense": 58,
+      "spAttack": 45,
+      "spDefense": 59,
+      "speed": 36
+    }
+  },
+  {
+    "number": 20,
+    "name": "Amelina Eglise",
+    "type": "Greenlam",
+    "image": "8809f6ba-b130-446c-8923-ce8e08761c41",
+    "stats": {
+      "hp": 47,
+      "attack": 84,
+      "defense": 69,
+      "spAttack": 73,
+      "spDefense": 60,
+      "speed": 92
+    }
+  }
+]
