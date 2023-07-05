@@ -48,3 +48,26 @@
     height:25px;
     padding: 2px;
 }
+
+.searchbar{
+    height: 50px;
+    width: 600px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.search-form{
+    padding: 10px;
+    text-align: center;
+}
+
+.searchbutton{
+    height: 50px;
+    border: 2px solid black;
+    width: 100px;
+    margin-left:2px;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+}
