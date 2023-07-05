@@ -90,7 +90,7 @@ function searchFilter(pokemoneName, data) {
 }
 
 function tipoImagem(tipo){
-    if (tipo == "Rock") return "./ima"
+    if (tipo == "Rock") return "./images/.png"
     if (tipo == "Poison") return
     if (tipo == "Flying") return
     if (tipo == "Ground") return
