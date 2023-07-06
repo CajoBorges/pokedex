@@ -106,7 +106,7 @@ function tipoImagem(tipo){
     if (tipo == "Psychic") return "./images/psychic.png"
     if (tipo == "Ghost") return "./images/ghost.png"
     if (tipo == "Dragon") return "./images/dragon.png"
-    if (tipo == "Electric") return "./images/eletric.png"
+    if (tipo == "Electric") return "./images/electric.png"
     if (tipo == "Normal") return "./images/normal.png"
     if (tipo == "Steel") return "./images/steel.png"
     if (tipo == "Ice") return "./images/ice.png"
