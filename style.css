@@ -57,6 +57,7 @@
     text-align: center;
     border: 2px solid black;
     border-radius: 10px;
+    font-size: 15px;
 }
 
 .search-form{
@@ -73,4 +74,5 @@
     background-color: red;
     color: white;
     border-radius: 10px;
+    font-size: 15px;
 }
