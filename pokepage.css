@@ -1,5 +1,9 @@
+* {
+    font-family: Kanit, Inter, Lexend, Arial, sans-serif;
+}
+
 .bigtitle {
-    font-family: Google Sans, Lexend, Noto Sans, Arial, Helvetica, sans-serif;
+    font-family: Kanit, Inter, Lexend, Arial, sans-serif;
     font-size: 33px;
 }
 .pokemonimage {
@@ -8,21 +12,22 @@
     height: 300px;
 }
 .name {
-    font-family: Google Sans, Lexend, Noto Sans, Arial, sans-serif;
+    font-family: Kanit, Inter, Lexend, Arial, sans-serif;
     font-size: 22px;
 }
 .infostyle {
     justify-content: flex-end;
-    font-family: Google Sans, Lexend, Noto Sans, Arial, sans-serif;
+    font-family: Kanit, Inter, Lexend, Arial, sans-serif;
     font-size: 12px;
 }
 
 .typestyle {
-    font-family: Google Sans, Lexend, Noto Sans, Arial, sans-serif;
+    font-family: Kanit, Arial, sans-serif;
     font-size: 20px;
 }
 
 .principal {
     display: flex;
     flex-direction: row;
+    justify-content: right;
 }

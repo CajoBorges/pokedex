@@ -30,6 +30,8 @@
 
 .title {
     text-align: center;
+    width: 200px;
+    
     padding-block: 1rem;
     font-size: 65px;
 }
@@ -75,4 +77,5 @@
     color: white;
     border-radius: 10px;
     font-size: 15px;
+
 }
