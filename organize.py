@@ -11,7 +11,9 @@ linhas = tabela.find_all('tr')[1:]
 for linha in linhas:
     colunas = linha.find_all('td')
     imagem = colunas[0].find('img', class_='img-fixed')['src']
-    name = colunas[1].text.strip()
+    name = colunas[1].find('a', class_='ent-name').text.strip()
+    forma = colunas[1].find('small', class_='text-muted')
+    forma = "" if forma == None else forma.text.strip()
     number = colunas[0].find('span', class_='infocard-cell-data').text.strip()
     listatipos = colunas[2].text.strip().split(" ")
     tipo2 = ""
@@ -28,11 +30,11 @@ for linha in linhas:
     infopokemon = {"number": number,
                    "imagem": imagem,
                    "name": name,
+                   "form": forma,
                    "tipo1": tipo1,
                    "tipo2": tipo2,
                    "stats": stats}
     listafinal.append(infopokemon)
 json_data = json.dumps(listafinal, indent=4)
-print(json_data)
 with open("pokeinfo.json", 'w') as json_file:
     json_file.write(json_data)

@@ -18,16 +18,49 @@
 .infostyle {
     justify-content: flex-end;
     font-family: Kanit, Inter, Lexend, Arial, sans-serif;
-    font-size: 12px;
+    font-size: 25px;
 }
 
 .typestyle {
     font-family: Kanit, Arial, sans-serif;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .principal {
     display: flex;
     flex-direction: row;
-    justify-content: right;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.stats {
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.rightinfo {
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    justify-content: space-around;
+}
+.hp {
+    color: #ff0015;
+    margin: -50px 0px;
+} .attack {
+    color: #052c05;
+    margin: -50px 0px;
+} .defense {
+    color: #494b42;
+    margin: -50px 0px;
+} .spattack {
+    color: #0456ff;
+    margin: -50px 0px;
+} .spdefense {
+    color: #410441;
+    margin: -50px 0px;
+} .speed {
+    color: #fa16dc;
+    margin: -50px 0px;
 }

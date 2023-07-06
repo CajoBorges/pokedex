@@ -1,12 +1,17 @@
+var data = []
+
 fetch('./pokeinfo.json')
   .then(response => response.json())
-  .then(data => {
-    renderTable(data)
+  .then(dt => { 
+    data = dt
+    renderTable(dt)
   })
 
-function renderTable(data) {
+
+
+function renderTable(dt) {
   table = document.querySelector('#pokemon-table')
-  data.forEach(element => {
+  dt.forEach(element => {
     tr = document.createElement('tr')
     tr.classList.add('row')
     
@@ -21,8 +26,26 @@ function renderTable(data) {
     td.appendChild(img)
     td.appendChild(text)
     tr.appendChild(td)
-    
+  
     td = document.createElement('td')
+    const link = document.createElement('a')
+    link.href = `./pokemon.html?pokemon=${element.number}`
+    link.textContent = element.name
+    td.appendChild(link)
+    td.classList.add('table-item')
+    td.classList.add('name')
+    tr.appendChild(td)
+    
+    if (element.form != "") {
+      p = document.createElement('p')
+      p.textContent = element.form
+      p.classList.add('table-item')
+      p.classList.add('form')
+      console.log("form ")
+      td.appendChild(p)
+    }
+
+    
     td.textContent = element.name
     td.classList.add('table-item')
     td.classList.add('name')
@@ -85,11 +108,24 @@ function renderTable(data) {
   })
 }
 
-function searchFilter(pokemoneName, data) {
-    const asArray = Object.entries(data)
-    const filtered = asArray.filter(pokemon => pokemon[1].name.toLowerCase().includes(pokemoneName.toLowerCase()))
-    return Object.fromEntries(filtered)
+function searchFilter(pokemoneName) {
+    const filtered = data.filter(pokemon => pokemon.name.toLowerCase().includes(pokemoneName.toLowerCase()))
+    return (filtered)
 }
+
+function clearTable(){
+  document.querySelectorAll(".row")
+  .forEach(el => el.remove()) 
+}
+
+function searchresults() {
+  const filterText = document.querySelector("#searchbar").value
+  const filteredData = searchFilter(filterText)
+  clearTable()
+  console.log(filteredData)
+  renderTable(filteredData)
+}
+
 
 
 function tipoImagem(tipo){
@@ -112,9 +148,7 @@ function tipoImagem(tipo){
     if (tipo == "Ice") return "./images/ice.png"
     if (tipo == "Fairy") return "./images/fairy.png"
     return "./images/" + tipo.toLowerCase() + ".png"
-
-    
-
 }
+
 
 

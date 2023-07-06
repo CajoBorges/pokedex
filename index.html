@@ -17,10 +17,10 @@
         <h1 class="title">Pokédex</h1> 
     </div>
     <div>
-        <form class="search-form">
-            <input type="text" class="searchbar" placeholder="Search Pokemon...">
-            <button class="searchbutton" type="submit">Pesquisar</button>
-        </form>
+        <div class="search-form">
+            <input type="text" class="searchbar" id="searchbar" placeholder="Search Pokemon...">
+            <button class="searchbutton" onclick="searchresults()">Pesquisar</button>
+        </div>
         <table id="pokemon-table" class="pokemon-table">
             <thead class="table-header">
                 <th>Number</th>
